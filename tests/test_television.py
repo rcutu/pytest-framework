@@ -4,7 +4,7 @@ from pytest import mark
 @mark.TV
 @mark.parametrize('tv_brand', [
     ('Samsung'),
-    ('Tlefunken'),
+    ('Telefunken'),
     ('Bose')
 ])
 def test_television_turn_on(tv_brand):

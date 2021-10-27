@@ -7,7 +7,7 @@ from random import *
 from selenium import webdriver
 
 
-data_path = 'test_data.json'
+data_path = r'.\tests\test_data.json'
 
 
 @fixture(scope='function')  # can be also session if we want one instance of the webdriver for all tests
